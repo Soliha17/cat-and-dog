@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: black;
+    padding-bottom: 6%;
+}
+
+.navbar {
+    padding-top: 20px !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    text-align: right;
+}
+
+.nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 15px !important;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+}
+
+.navbar-brand {
+    line-height: 10px;
+}
+
+.navbar-brand h1,
+p {
+    color: white !important;
+
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 40px !important;
+    border: 0;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+    box-shadow: none !important;
+
+}
+
+.active-home {
+    border-bottom: 2px solid grey;
+}
+
+.nav-link:hover {
+    color: grey !important;
+    transition: .5s;
+}
+
+.banner {
+    margin-top: 0;
+    color: white;
+
+}
+
+.banner h1 {
+    margin: 80px 0 40px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner img {
+    max-height: 500px;
+
+
+}
+
+.express-btn {
+    border-radius: 25px;
+    background-color: white !important;
+    color: grey;
+    border-color: grey !important;
+    border: 2px solid grey;
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    text-decoration: none !important;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+/*_________maniki---------------*/
+
+
+
+
+
+.card {
+    display: inline-block;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: white;
+    padding: 25px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(1 1 1 /10%);
+    border-radius: 7px;
+
+}
+
+
+
+.ikon i {
+    color: grey;
+    font-size: 70px;
+    display: inline-block;
+}
+
+.ikon div {
+    display: inline-grid;
+    margin: 0 60px 40px 0;
+}
+
+
+.ikon p {
+    font-weight: 500;
+    font-size: 25px;
+    color: gray !important;
+    display: inline-block;
+}
+
+#contact div p {
+    color: grey !important;
+}
+
+.footer p,
+i {
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+.footer h2 {
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .ikon div {
+        margin-right: 20px !important;
+        font-size: 15px;
+
+    }
+}
